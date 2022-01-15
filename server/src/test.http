@@ -1,0 +1,21 @@
+@baseUrl=http://localhost:8081/api
+@clients=clients
+
+###
+
+
+# @Get all todos
+GET {{baseUrl}}/{{clients}}
+
+###
+
+# @Add new tood
+POST {{baseUrl}}/{{clients}}
+Content-Type: application/json
+
+{
+  "name": "Vinh Nguyen",
+  "age": 30,
+}
+
+###

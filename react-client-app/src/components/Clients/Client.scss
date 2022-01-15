@@ -1,0 +1,16 @@
+ul.list-item-clients {
+  list-style: none;
+  font-size: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  flex-grow: 1;
+
+  li.client-item {
+    display: flex;
+    margin: 0.25rem 0;
+    padding: 0.35rem;
+    justify-content: space-between;
+    // align-items: center;
+    flex-direction: column;
+  }
+}
